@@ -4,7 +4,7 @@ config();
 
 const router = express.Router();
 
-const apiKey = process.env.WEATHER_API_KEY || "M9HRY7XX7GCUTVZMP9YQLUAA5";
+const apiKey = process.env.WEATHER_API_KEY;
 const location = "Montreal, Canada";
 const unitGroup = "metric";
 const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=${unitGroup}&key=${apiKey}`;
