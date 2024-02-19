@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
-import TravelImage from "../components/TravelImage";
+// import TravelImage from "../components/TravelImage";
 
 const ProjectPage = () => {
   return (
@@ -9,7 +9,8 @@ const ProjectPage = () => {
         <Sidebar />
       </div>
       <div  className="ml-[75px] flex-1 overflow-auto">
-        <TravelImage />
+        {/* <TravelImage /> */}
+        <h1>Under Construction</h1>
       </div>
     </div>
   );
